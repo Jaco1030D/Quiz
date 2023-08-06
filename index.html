@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="start_btn"><button>Iniciar</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>Regras do Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. você possui apenas <span>15 segundos</span> por questão.</div>
+            <div class="info">2. Se vc selecionar uma questão n pode mais muda.</div>
+            <div class="info">3. Vc n pode selecionar questões depois q o tempo acabar.</div>
+            <div class="info">4. Vc n pode sair do quiz depois q começar a jogar.</div>
+            <div class="info">5. Vc ganha ponto para cada questão certa.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Deixa pra la</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Coloque a questão no javascript -->
+            </div>
+            <div class="option_list">
+                <!-- Coloque as opções no javascript -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">Proximo</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você terminou o quiz</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Jogar de novo</button>
+            <button class="quit">finalizar</button>
+        </div>
+    </div>
+
+    <!-- aqui vai somente as questoes e as alternativas -->
+    <script src="js/questions.js"></script>
+
+    <!-- caso precise adicionar js use esse arquivo aqui -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
