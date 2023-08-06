@@ -24,7 +24,7 @@ let questions = [
     {
     numb: 3,
     question: "Raiz de 25:",
-    answer: "As duas coisas",
+    answer: "5",
     options: [
       "5",
       "10",
